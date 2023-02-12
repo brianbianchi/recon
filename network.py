@@ -19,6 +19,7 @@ options.add_argument("--ignore-certificate-errors")
 # pass the chrome options and desired capabilities as
 # parameters.
 # brew install chromedriver
+# xattr -d com.apple.quarantine /usr/local/bin/chromedriver
 driver = webdriver.Chrome(chrome_options=options,
                           desired_capabilities=desired_capabilities)
 
