@@ -3,6 +3,8 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 import time
 import json
 
+# scrape network traffic
+
 desired_capabilities = DesiredCapabilities.CHROME
 desired_capabilities["goog:loggingPrefs"] = {"performance": "ALL"}
 
